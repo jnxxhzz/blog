@@ -1,0 +1,371 @@
+a:2:{s:6:"expire";i:1520241071;s:7:"headers";a:0:{}}ENDCI--->﻿<!DOCTYPE html>
+<!--[if IE 9 ]>
+    <div style="width:100%;text-align:center; margin:0 auto; padding:20px;background-color:#444; color:#fff; position:absolute; z-index:99999;">
+        您的浏览器版本较低，页面样式可能会出现显示不正常、加载慢的情况，建议升级到最新浏览器 
+        <a target="_blank" href="http://www.browsehappy.com">立即升级</a>&nbsp;&nbsp;&nbsp;&nbsp;    
+        <a href='#' onclick="this.parentNode.style.display = 'none'; return false;">关闭提示</a>
+    </div>
+<![endif]-->
+<!--[if lt IE 9]>
+    <script type="text/javascript"> window.location.href = "/Public/error/low_version.html";</script>
+<![endif]-->
+<html lang="en-gb" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <title>jnxxhzz</title>
+    <!-- SEO 关键字 <title>jnxxhzz</title>-->
+    <meta name="Keywords" content="jnxxhzz,zcmu,ZCMUOJ,ACM,hdu,HDU" >
+    <meta name="Description" content="jnxxhzz zcmu ZCMUOJ ACM hdu HDU ICPC blog" >
+    <meta name="author" content="jnxxhzz">
+    
+    <link href="http://www.jnxxhzz.com/Public/img/favicon.ico" rel="icon" type="image/x-icon">
+    
+    <!-- 适合阻塞加载的样式，使用非阻塞会将没样式的html渲染 -->
+    <link rel="stylesheet" type="text/css" href="/Public/common_lib/uikit/css/uikit.almost-flat.min.css" >     
+    <!-- 为了友好的界面显示，马上用到的样式需要阻塞加载 -->
+    <link rel="stylesheet" type="text/css" href="/Public/common_lib/uikit/css/components/search.almost-flat.min.css">
+    <script src="/Public/common_lib/jquery.min.js"></script>
+    <script src="/Public/common_lib/uikit/js/uikit.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/home/css/jnxxhzz.min.css" >
+    
+    <!-- 幻灯片组件，为了友好显示为阻塞加载 -->
+    <link rel="stylesheet" type="text/css" href="/Public/common_lib/uikit/css/components/slideshow.almost-flat.min.css">
+    <link rel="stylesheet" type="text/css" href="/Public/common_lib/uikit/css/components/slidenav.almost-flat.min.css">
+    <link rel="stylesheet" type="text/css" href="/Public/common_lib/uikit/css/components/dotnav.almost-flat.min.css">
+    <script src="/Public/common_lib/uikit/js/components/slideshow.min.js"></script>
+
+    <!-- 非阻塞并发加载js模块 -->
+    <script src="/Public/common_lib/headJS/head.load.min.js" data-headjs-load="/Public/home/js/init.js"></script>
+
+    <!-- 标签js -->
+    <script  src="/Public/common_lib/jquery-1.7.2.min.js"></script>
+    <script  src="/Public/common_lib/jquery.windstagball.js"></script>
+    <style type="text/css">
+    #divtag_cloud a {position:absolute; top:0px; left:0px; font-family: Microsoft YaHei; color:#000; font-weight:bold; text-decoration:none; padding: 3px 6px; }
+    #divtag_cloud a:hover {border: 1px solid #eee; background: #FFF; }
+    #divtag_cloud .blue {color:blue;}
+    #divtag_cloud .red {color:red;}
+    #divtag_cloud .green {color:green;}
+
+    #divtag_cloud p { font: 16px Microsoft YaHei; text-align: center; color: #ba0c0c; }
+    #divtag_cloud p a { font-size: 20px; color: #ba0c0c; }
+    #divtag_cloud p a:hover { color: red; }
+    </style>
+    
+</head>
+
+<body>
+    <div id="particles_2-js" style="position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index:-9999;" ></div>
+    <!-- brand图片 <img id="brand_img" src="http://www.jnxxhzz.com/Public/img/">-->
+    <div id="brand" class="uk-hidden-small">
+        <div id="particles-js">
+            
+            <span id="brand_tip"><span id="brand_name">jnxxhzz </span>的个人博客</span>
+        </div>
+    </div><!-- brand图片 end -->
+
+    <!-- 导航条 -->
+    <nav class="uk-navbar" data-uk-sticky>      
+        <div class="uk-container uk-container-center">
+            <a class="uk-navbar-brand uk-hidden-small" href="http://www.jnxxhzz.com/Home/index.html">
+                <img src="http://www.jnxxhzz.com/Public/img/logo.png" width="150">
+            </a>
+            <ul class="uk-navbar-nav uk-hidden-small">
+                            <li class="uk-active" >
+                    <a href="http://www.jnxxhzz.com/Home/index.html">首页</a>                </li>
+                <li class="dropdown ">
+                    <a href="http://www.jnxxhzz.com/Article/article_list.html">文章</a>                    <ul>
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/3.html">ACM</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/8.html">小玩具</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/4.html">ZCMU</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/1.html">test</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/5.html">HDU</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/6.html">网络赛</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/7.html">python</a>                            </li> 
+                                          
+                    </ul>
+                </li>
+                <li  >
+                    <a href="http://www.jnxxhzz.com/Home/message.html">留言</a>                </li>
+                <li  >
+                    <a href="http://www.jnxxhzz.com/Home/about.html">关于我</a>                </li>
+            </ul>
+            <!-- 小分辨率导航条 -->
+            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+            <div class="uk-navbar-brand uk-navbar-center uk-visible-small">
+                <img src="http://www.jnxxhzz.com/Public/img/logo.png" width="130">
+            </div><!-- 小分辨率导航条 end -->
+            <!-- 搜索 < 搜索 end -->
+            <div class="uk-navbar-flip uk-hidden-small">
+                <div class="uk-navbar-content">
+                    <form id="article_search" class="uk-search" data-uk-search>
+                        <input class="uk-search-field search" type="search" placeholder="search..." maxlength="30" name="search">
+                    </form>
+                </div>     
+            </div>
+        </div>
+    </nav><!-- 导航条 end -->
+    
+    <!-- 抽屉 -->
+    <div id="offcanvas" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+                <li>
+                    <form id="article_search_canvas" class="uk-search" data-uk-search>
+                        <input class="uk-search-field search" type="search" placeholder="search..." maxlength="30" name="search">
+                    </form>
+                </li>
+                <li>
+                    <a href="http://www.jnxxhzz.com/Home/index.html">首页</a>                </li>
+                <li class="uk-parent">
+                    <a href="#"><i class="uk-icon uk-icon-book"></i> 文章</a>
+                    <ul class="uk-nav-sub">
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/3.html">ACM</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/8.html">小玩具</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/4.html">ZCMU</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/1.html">test</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/5.html">HDU</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/6.html">网络赛</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/7.html">python</a>                            </li> 
+                         
+                    </ul>                      
+                </li>
+                <li>
+                    <a href="http://www.jnxxhzz.com/Home/message.html">留言</a>                </li>
+                <li>
+                    <a href="http://www.jnxxhzz.com/Home/about.html">关于我</a>                </li>
+            </ul>
+        </div>
+    </div><!-- 抽屉 end -->
+
+
+    <!-- 页面内容 -->
+    <section>
+        <!-- 页面容器 -->
+        <div class="uk-container uk-container-center">
+            <!-- 布局 -->
+            <div class="uk-grid" data-uk-grid-margin>
+
+<div class="uk-width-medium-2-3">
+
+
+<!-- 轮播幻灯片 -->
+<div id="carousel" class="uk-slidenav-position" data-uk-slideshow="{animation: 'scale'}" style="max-height:278px;overflow: hidden;">  
+    <ul class="uk-slideshow uk-overlay-hover">
+                <li>
+            <img src="http://www.jnxxhzz.com/Public/Upload/2017-10-18/384c3465ffa5c5d49e0194087f26a1c8.jpg" width="800" height="300">
+            <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top" onclick="window.open('http://www.jnxxhzz.com/Article/article/3.html')" style="cursor: pointer;">
+                <h3>浙中医大计算机系新生指南</h3>
+                <p>勉强算是新生学习指南吧，欢迎各位同学来到浙江中医药大学~</p>
+            </figcaption>
+        </li>
+                <li>
+            <img src="http://www.jnxxhzz.com/Public/Upload/2018-02-15/a3c2c964f4e3e25bd16d0d889cf9b979.png" width="800" height="300">
+            <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top" onclick="window.open('http://www.jnxxhzz.com/Article/article/17.html')" style="cursor: pointer;">
+                <h3>微信红包.....真的是抢的越晚越好吗</h3>
+                <p>家里长辈都喜欢抢红包...除夕晚上抢红包玩的这么开心...没事干打算来探讨一下红...</p>
+            </figcaption>
+        </li>
+                <li>
+            <img src="http://www.jnxxhzz.com/Public/Upload/2018-02-12/b6c172ba20c545d5f363ad60ed652667.png" width="800" height="300">
+            <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-top uk-overlay-slide-top" onclick="window.open('http://www.jnxxhzz.com/Article/article/16.html')" style="cursor: pointer;">
+                <h3>高精度重载模板</h3>
+                <p>写了个高精度重载模板...重载基本上所有可能需要用到的运算符</p>
+            </figcaption>
+        </li>
+            </ul>
+    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                <li data-uk-slideshow-item="0"><a href="#"></a></li>
+                <li data-uk-slideshow-item="1"><a href="#"></a></li>
+                <li data-uk-slideshow-item="2"><a href="#"></a></li>
+            </ul> 
+</div><!-- 轮播幻灯片 end -->
+
+
+<div class="uk-panel uk-panel-box">
+    <article class="uk-article">
+        <h1 class="uk-article-title">
+            <span style='color:#c0392b;'>[顶]</span>            <a href="http://www.jnxxhzz.com/Article/article/3.html">浙中医大计算机系新生指南</a>        </h1>
+        <p class="uk-article-meta">
+            <i class="uk-icon uk-icon-user"></i>
+            <span class="uk-margin-right"> jnxxhzz</span>  
+            <span>分类: </i> <a href="http://www.jnxxhzz.com/Article/article_list/category/4.html" class="uk-margin-right">ZCMU</a></span>
+            <i class="uk-icon uk-icon-clock-o"></i>
+            <span class="uk-margin-right"> 2017-10-18 10:48:38</span>
+        </p>
+        <p>
+            <a href="http://www.jnxxhzz.com/Public/Upload/2017-10-18/384c3465ffa5c5d49e0194087f26a1c8.jpg" data-uk-lightbox title="浙中医大计算机系新生指南">
+                <img class="uk-align-left" width="20%" src="http://www.jnxxhzz.com/Public/Upload/2017-10-18/384c3465ffa5c5d49e0194087f26a1c8_thumb.jpg">
+            </a>
+        </p>
+        <p>勉强算是新生学习指南吧，欢迎各位同学来到浙江中医药大学~</p>     
+    </article>
+    <p class="uk-article-meta uk-align-right">
+        <i class="uk-icon uk-icon-eye"></i><span class="uk-margin-right"> 浏览 164</span>  
+        <i class="uk-icon uk-icon-thumbs-o-up"></i><span class="uk-margin-right"> 赞 14</span>
+        <i class="uk-icon uk-icon-commenting"></i><span class="uk-margin-right"> <a href="http://www.jnxxhzz.com/Article/article/3#comment">评论 2</a></a></span>
+    </p>
+</div>
+
+<div class="uk-panel uk-panel-box">
+    <article class="uk-article">
+        <h1 class="uk-article-title">
+                        <a href="http://www.jnxxhzz.com/Article/article/17.html">微信红包.....真的是抢的越晚越好吗</a>        </h1>
+        <p class="uk-article-meta">
+            <i class="uk-icon uk-icon-user"></i>
+            <span class="uk-margin-right"> jnxxhzz</span>  
+            <span>分类: </i> <a href="http://www.jnxxhzz.com/Article/article_list/category/8.html" class="uk-margin-right">小玩具</a></span>
+            <i class="uk-icon uk-icon-clock-o"></i>
+            <span class="uk-margin-right"> 2018-02-15 10:03:48</span>
+        </p>
+        <p>
+            <a href="http://www.jnxxhzz.com/Public/Upload/2018-02-15/a3c2c964f4e3e25bd16d0d889cf9b979.png" data-uk-lightbox title="微信红包.....真的是抢的越晚越好吗">
+                <img class="uk-align-left" width="20%" src="http://www.jnxxhzz.com/Public/Upload/2018-02-15/a3c2c964f4e3e25bd16d0d889cf9b979_thumb.png">
+            </a>
+        </p>
+        <p>家里长辈都喜欢抢红包...除夕晚上抢红包玩的这么开心...没事干打算来探讨一下红包算法?</p>     
+    </article>
+    <p class="uk-article-meta uk-align-right">
+        <i class="uk-icon uk-icon-eye"></i><span class="uk-margin-right"> 浏览 105</span>  
+        <i class="uk-icon uk-icon-thumbs-o-up"></i><span class="uk-margin-right"> 赞 2</span>
+        <i class="uk-icon uk-icon-commenting"></i><span class="uk-margin-right"> <a href="http://www.jnxxhzz.com/Article/article/17#comment">评论 0</a></a></span>
+    </p>
+</div>
+
+<div class="uk-panel uk-panel-box">
+    <article class="uk-article">
+        <h1 class="uk-article-title">
+                        <a href="http://www.jnxxhzz.com/Article/article/16.html">高精度重载模板</a>        </h1>
+        <p class="uk-article-meta">
+            <i class="uk-icon uk-icon-user"></i>
+            <span class="uk-margin-right"> jnxxhzz</span>  
+            <span>分类: </i> <a href="http://www.jnxxhzz.com/Article/article_list/category/3.html" class="uk-margin-right">ACM</a></span>
+            <i class="uk-icon uk-icon-clock-o"></i>
+            <span class="uk-margin-right"> 2018-02-12 12:49:02</span>
+        </p>
+        <p>
+            <a href="http://www.jnxxhzz.com/Public/Upload/2018-02-12/b6c172ba20c545d5f363ad60ed652667.png" data-uk-lightbox title="高精度重载模板">
+                <img class="uk-align-left" width="20%" src="http://www.jnxxhzz.com/Public/Upload/2018-02-12/b6c172ba20c545d5f363ad60ed652667_thumb.png">
+            </a>
+        </p>
+        <p>写了个高精度重载模板...重载基本上所有可能需要用到的运算符</p>     
+    </article>
+    <p class="uk-article-meta uk-align-right">
+        <i class="uk-icon uk-icon-eye"></i><span class="uk-margin-right"> 浏览 27</span>  
+        <i class="uk-icon uk-icon-thumbs-o-up"></i><span class="uk-margin-right"> 赞 0</span>
+        <i class="uk-icon uk-icon-commenting"></i><span class="uk-margin-right"> <a href="http://www.jnxxhzz.com/Article/article/16#comment">评论 0</a></a></span>
+    </p>
+</div>
+
+
+<div class="uk-panel uk-panel-box uk-text-center"><p class="uk-margin-top uk-margin-bottom" style="font-size:36px"><a href="http://www.jnxxhzz.com/Article/article_list.html">查看更多文章...</a></p></div>
+</div>﻿<!-- 侧边栏 -->
+<div class="uk-width-medium-1-3">
+    <!-- 公告 -->
+    <div class="uk-panel uk-panel-box notice">
+        <div class="uk-panel-teaser">
+            <img src="http://www.jnxxhzz.com/Public/img/notice.png">
+        </div>
+        <strong>正式上线~</strong>
+        <!-- 输出端过滤html标签 -->
+        <div>个人博客正式上线~www.jnxxhzz.com持续更新和维护~</div> 
+    </div><!-- 公告 end -->
+    
+    <!-- 热门文章 -->
+    <div class="uk-panel uk-panel-box">
+       <h3 class="uk-panel-title uk-text-bold uk-text-primary">热门</h3>
+        <ul class="uk-list uk-list-line">
+                            <li><a href="http://www.jnxxhzz.com/Article/article/9.html">浙江中医药大学第十一届校赛题解...</a></li>
+                    <li><a href="http://www.jnxxhzz.com/Article/article/3.html">浙中医大计算机系新生指南...</a></li>
+                    <li><a href="http://www.jnxxhzz.com/Article/article/4.html">2017哈尔滨CCPC</a></li>
+                    <li><a href="http://www.jnxxhzz.com/Article/article/5.html">2017西安ICPC</a></li>
+                    <li><a href="http://www.jnxxhzz.com/Article/article/6.html">博客更新日志</a></li>
+                    <li><a href="http://www.jnxxhzz.com/Article/article/8.html">hdu6225—Little Boxes...</a></li>
+          
+        <li class="uk-text-right"><a href="http://www.jnxxhzz.com/Article/article_list/hot.html">查看更多...</a></li>                </ul>
+    </div><!-- 热门文章 end -->
+    
+    <!-- 标签云  -->
+    <div class="uk-panel uk-panel-box uk-text-center">
+        <div class="uk-panel-teaser">
+            <img src="http://www.jnxxhzz.com/Public/img/tags.png">
+        </div>
+        <div id="divtag_cloud" style = "position:relative; width:360px; height:350px;margin:-20 auto;left:-20px;">
+                                        <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%25B0%258F%25E7%258E%25A9%25E5%2585%25B7.html">小玩具</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E9%25AB%2598%25E7%25B2%25BE%25E5%25BA%25A6.html">高精度</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%25A8%25A1%25E6%259D%25BF.html">模板</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/2018.html">2018</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E8%25AE%25AD%25E7%25BB%2583%25E8%25B5%259B.html">训练赛</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%2596%2587%25E4%25BB%25B6.html">文件</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E4%25BB%25A3%25E7%25A0%2581.html">代码</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E8%25AE%25AD%25E7%25BB%2583.html">训练</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%25AF%2592%25E5%2581%2587.html">寒假</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E7%25AE%2597%25E6%25B3%2595.html">算法</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/Wannafly.html">Wannafly</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E9%25A2%2598%25E8%25A7%25A3.html">题解</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/ACM.html">ACM</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/python.html">python</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%25B0%258F%25E6%25B8%25B8%25E6%2588%258F.html">小游戏</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%25A0%25A1%25E8%25B5%259B.html">校赛</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/hdu.html">hdu</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/chrome.html">chrome</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%2589%25A9%25E5%25B1%2595%25E7%25A8%258B%25E5%25BA%258F.html">扩展程序</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%258D%259A%25E5%25AE%25A2.html">博客</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%259B%25B4%25E6%2596%25B0.html">更新</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%2597%25A5%25E5%25BF%2597.html">日志</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/2017.html">2017</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E8%25A5%25BF%25E5%25AE%2589.html">西安</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/ICPC.html">ICPC</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%2593%2588%25E5%25B0%2594%25E6%25BB%25A8.html">哈尔滨</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/CCPC.html">CCPC</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%2596%25B0%25E7%2594%259F.html">新生</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E8%25AE%25A1%25E7%25AE%2597%25E6%259C%25BA.html">计算机</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/C%252B%252B.html">C++</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%25AC%25A2%25E8%25BF%258E.html">欢迎</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%258C%25BB%25E4%25BF%25A1.html">医信</a>                                            </div>
+    </div><!-- 标签云 end -->
+    
+    <!-- 分类 -->
+    <div class="uk-panel uk-panel-box">
+        <h3 class="uk-panel-title uk-text-bold uk-text-primary">分类</h3>
+        <ul class="uk-list uk-list-line">
+                                        <li><a href="http://www.jnxxhzz.com/Article/article_list/category/3.html">ACM (7)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/8.html">小玩具 (4)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/4.html">ZCMU (2)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/1.html">test (1)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/5.html">HDU (1)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/6.html">网络赛 (0)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/7.html">python (0)</a></li>
+              
+                                </ul>
+    </div><!-- 分类 end -->
+    <!-- 友情链接 -->
+    <div class="uk-panel uk-panel-box">
+        <h3 class="uk-panel-title uk-text-bold uk-text-primary">友情链接</h3>
+        <ul id="normal_links" class="uk-list">
+                                        <a href="http://blog.csdn.net/jnxxhzz" target="_blank">csdnblog</a>
+                            <a href="http://codeforces.com/problemset" target="_blank">codeforces</a>
+                                            </ul>
+    </div><!-- 友链 end -->
+</div><!-- 侧边栏 end -->            </div><!-- 布局 -->
+        </div><!-- 页面容器 -->
+    </section><!-- 页面内容 end -->   
+        
+    <!-- 回顶部 -->
+    <div id="back_top" class="uk-hidden-small">
+        <i class="uk-icon-large uk-icon-arrow-up"></i>
+    </div><!-- //回顶部 -->
+
+    <!-- 脚部 -->
+    <footer class="tm-footer">
+        <div class="uk-container uk-container-center uk-text-center">
+            <!-- base on 、ICP -->
+            <ul class="uk-subnav uk-subnav-line uk-flex-center">
+                <li>design base on<a href="https://getuikit.com" target="_blank">&nbsp;UIKIT</a></li>
+                <li>website base on<a href="http://www.codeigniter.com/" target="_blank">&nbsp;CodeIgniter</a></li>
+                                    <li><a href="http://www.miibeian.gov.cn" target="_blank">浙ICP备17048957号</a></li>  
+                                <!--li><script src="https://s4.cnzz.com/z_stat.php?id=1261168964&web_id=1261168964" language="JavaScript"></script></li>-->
+            </ul><!-- base on 、ICP end -->
+            <!-- 版权 -->
+            <p>
+                <span><span style="font-family:arial;">Copyright&nbsp;&copy;&nbsp;</span>&nbsp;2016&nbsp;-&nbsp;2018&nbsp;<a href="http://www.jnxxhzz.com/Home/index.html">jnxxhzz</a>&nbsp;&amp;&nbsp; 版权所有 &nbsp;</span> |&nbsp;
+                <br>
+                <span>Made by <a href="http://www.jnxxhzz.com/Home/index.html">jnxxhzz</a></a> Licensed under <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</span>               
+            </p><!-- 版权 end -->
+            
+            <a href="http://www.jnxxhzz.com/Home/index">
+                <img src="http://www.jnxxhzz.com/Public/img/logo.png" width="90" height="30" title="jnxxhzz" alt="jnxxhzz">
+            </a>          
+        </div>
+    </footer><!-- 脚部 end -->
+
+    <!--回顶部操作-->
+    <script type="text/javascript"> head.ready(function(){$('#article_search,#article_search_canvas').keydown(function(event){if(event.keyCode==13){var search_data=($(this).serialize()).split('=');var data_param=encodeURIComponent($.trim(search_data[1].replace(/\+/g,' ')));if(data_param==''){$.center_message('请输入内容','error');}else{window.location='http://www.jnxxhzz.com/Article/article_list' + '/' + search_data[0] + '/' + data_param + '.html';}return false;}});});</script><script type="text/javascript"> head.ready(function(){$('#divtag_cloud').windstagball({radius:120,speed:10});$('#tag_cloud').jnxxhzztool('tag_cloud');$('#back_top').jnxxhzztool('back_top');});</script>
+</body>
+</html>

@@ -1,0 +1,1155 @@
+a:2:{s:6:"expire";i:1520241230;s:7:"headers";a:0:{}}ENDCI--->﻿<!DOCTYPE html>
+<!--[if IE 9 ]>
+    <div style="width:100%;text-align:center; margin:0 auto; padding:20px;background-color:#444; color:#fff; position:absolute; z-index:99999;">
+        您的浏览器版本较低，页面样式可能会出现显示不正常、加载慢的情况，建议升级到最新浏览器 
+        <a target="_blank" href="http://www.browsehappy.com">立即升级</a>&nbsp;&nbsp;&nbsp;&nbsp;    
+        <a href='#' onclick="this.parentNode.style.display = 'none'; return false;">关闭提示</a>
+    </div>
+<![endif]-->
+<!--[if lt IE 9]>
+    <script type="text/javascript"> window.location.href = "/Public/error/low_version.html";</script>
+<![endif]-->
+<html lang="en-gb" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <title>浙江中医药大学第十一届校赛题解</title>
+    <!-- SEO 关键字 <title>jnxxhzz</title>-->
+    <meta name="Keywords" content="jnxxhzz,zcmu,ZCMUOJ,ACM,hdu,HDU" >
+    <meta name="Description" content="jnxxhzz zcmu ZCMUOJ ACM hdu HDU ICPC blog" >
+    <meta name="author" content="jnxxhzz">
+    
+    <link href="http://www.jnxxhzz.com/Public/img/favicon.ico" rel="icon" type="image/x-icon">
+    
+    <!-- 适合阻塞加载的样式，使用非阻塞会将没样式的html渲染 -->
+    <link rel="stylesheet" type="text/css" href="/Public/common_lib/uikit/css/uikit.almost-flat.min.css" >     
+    <!-- 为了友好的界面显示，马上用到的样式需要阻塞加载 -->
+    <link rel="stylesheet" type="text/css" href="/Public/common_lib/uikit/css/components/search.almost-flat.min.css">
+    <script src="/Public/common_lib/jquery.min.js"></script>
+    <script src="/Public/common_lib/uikit/js/uikit.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/home/css/jnxxhzz.min.css" >
+    
+    <!-- 幻灯片组件，为了友好显示为阻塞加载 -->
+    <link rel="stylesheet" type="text/css" href="/Public/common_lib/uikit/css/components/slideshow.almost-flat.min.css">
+    <link rel="stylesheet" type="text/css" href="/Public/common_lib/uikit/css/components/slidenav.almost-flat.min.css">
+    <link rel="stylesheet" type="text/css" href="/Public/common_lib/uikit/css/components/dotnav.almost-flat.min.css">
+    <script src="/Public/common_lib/uikit/js/components/slideshow.min.js"></script>
+
+    <!-- 非阻塞并发加载js模块 -->
+    <script src="/Public/common_lib/headJS/head.load.min.js" data-headjs-load="/Public/home/js/init.js"></script>
+
+    <!-- 标签js -->
+    <script  src="/Public/common_lib/jquery-1.7.2.min.js"></script>
+    <script  src="/Public/common_lib/jquery.windstagball.js"></script>
+    <style type="text/css">
+    #divtag_cloud a {position:absolute; top:0px; left:0px; font-family: Microsoft YaHei; color:#000; font-weight:bold; text-decoration:none; padding: 3px 6px; }
+    #divtag_cloud a:hover {border: 1px solid #eee; background: #FFF; }
+    #divtag_cloud .blue {color:blue;}
+    #divtag_cloud .red {color:red;}
+    #divtag_cloud .green {color:green;}
+
+    #divtag_cloud p { font: 16px Microsoft YaHei; text-align: center; color: #ba0c0c; }
+    #divtag_cloud p a { font-size: 20px; color: #ba0c0c; }
+    #divtag_cloud p a:hover { color: red; }
+    </style>
+    
+</head>
+
+<body>
+    <div id="particles_2-js" style="position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index:-9999;" ></div>
+    <!-- brand图片 <img id="brand_img" src="http://www.jnxxhzz.com/Public/img/">-->
+    <div id="brand" class="uk-hidden-small">
+        <div id="particles-js">
+            
+            <span id="brand_tip"><span id="brand_name">jnxxhzz </span>的个人博客</span>
+        </div>
+    </div><!-- brand图片 end -->
+
+    <!-- 导航条 -->
+    <nav class="uk-navbar" data-uk-sticky>      
+        <div class="uk-container uk-container-center">
+            <a class="uk-navbar-brand uk-hidden-small" href="http://www.jnxxhzz.com/Home/index.html">
+                <img src="http://www.jnxxhzz.com/Public/img/logo.png" width="150">
+            </a>
+            <ul class="uk-navbar-nav uk-hidden-small">
+                            <li  >
+                    <a href="http://www.jnxxhzz.com/Home/index.html">首页</a>                </li>
+                <li class="dropdown uk-active">
+                    <a href="http://www.jnxxhzz.com/Article/article_list.html">文章</a>                    <ul>
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/3.html">ACM</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/8.html">小玩具</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/4.html">ZCMU</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/1.html">test</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/5.html">HDU</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/6.html">网络赛</a>                            </li> 
+                                                    <li>
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/7.html">python</a>                            </li> 
+                                          
+                    </ul>
+                </li>
+                <li  >
+                    <a href="http://www.jnxxhzz.com/Home/message.html">留言</a>                </li>
+                <li  >
+                    <a href="http://www.jnxxhzz.com/Home/about.html">关于我</a>                </li>
+            </ul>
+            <!-- 小分辨率导航条 -->
+            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+            <div class="uk-navbar-brand uk-navbar-center uk-visible-small">
+                <img src="http://www.jnxxhzz.com/Public/img/logo.png" width="130">
+            </div><!-- 小分辨率导航条 end -->
+            <!-- 搜索 < 搜索 end -->
+            <div class="uk-navbar-flip uk-hidden-small">
+                <div class="uk-navbar-content">
+                    <form id="article_search" class="uk-search" data-uk-search>
+                        <input class="uk-search-field search" type="search" placeholder="search..." maxlength="30" name="search">
+                    </form>
+                </div>     
+            </div>
+        </div>
+    </nav><!-- 导航条 end -->
+    
+    <!-- 抽屉 -->
+    <div id="offcanvas" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+                <li>
+                    <form id="article_search_canvas" class="uk-search" data-uk-search>
+                        <input class="uk-search-field search" type="search" placeholder="search..." maxlength="30" name="search">
+                    </form>
+                </li>
+                <li>
+                    <a href="http://www.jnxxhzz.com/Home/index.html">首页</a>                </li>
+                <li class="uk-parent">
+                    <a href="#"><i class="uk-icon uk-icon-book"></i> 文章</a>
+                    <ul class="uk-nav-sub">
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/3.html">ACM</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/8.html">小玩具</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/4.html">ZCMU</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/1.html">test</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/5.html">HDU</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/6.html">网络赛</a>                            </li> 
+                                                    <li class="uk-margin-left">
+                                <a href="http://www.jnxxhzz.com/Article/article_list/category/7.html">python</a>                            </li> 
+                         
+                    </ul>                      
+                </li>
+                <li>
+                    <a href="http://www.jnxxhzz.com/Home/message.html">留言</a>                </li>
+                <li>
+                    <a href="http://www.jnxxhzz.com/Home/about.html">关于我</a>                </li>
+            </ul>
+        </div>
+    </div><!-- 抽屉 end -->
+
+
+    <!-- 页面内容 -->
+    <section>
+        <!-- 页面容器 -->
+        <div class="uk-container uk-container-center">
+            <!-- 布局 -->
+            <div class="uk-grid" data-uk-grid-margin>
+
+<div class="uk-width-medium-2-3">
+    <div class="position">
+        <span>当前位置 : <a href="http://www.jnxxhzz.com/Home/index.html">首页</a> -> <a href="http://www.jnxxhzz.com/Article/article_list.html">文章</a> -> <a href="http://www.jnxxhzz.com/Article/article_list/category/4.html">ZCMU</a>  -> <a href="http://www.jnxxhzz.com/Article/article/9.html">浙江中医药大学第十一届校赛题解</a></span>
+    </div>
+    <div class="uk-panel uk-panel-box">
+        <article class="uk-article">
+            <h1 class="uk-article-title">
+                <a href="http://www.jnxxhzz.com/Article/article/9.html">浙江中医药大学第十一届校赛题解</a>            </h1>
+            <p class="uk-article-meta">
+                <i class="uk-icon uk-icon-user"></i>
+                <span class="uk-margin-right"> jnxxhzz</span>  
+                <span>分类: <a href="http://www.jnxxhzz.com/Article/article_list/category/4.html" class="uk-margin-right">ZCMU</a></span>
+                <i class="uk-icon uk-icon-clock-o"></i>
+                <span class="uk-margin-right"> 2017-12-10 07:18:20</span>
+            </p>
+            <p class="uk-article-meta">
+                <i class="uk-icon uk-icon-tags"></i><span class="uk-margin-right"> 所属标签</span>
+                                    <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%25A0%25A1%25E8%25B5%259B.html">校赛 </a>                                    <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E9%25A2%2598%25E8%25A7%25A3.html">题解 </a>                                       
+            </p>          
+            <hr>
+            <!-- 文章内容 -->
+            <div id="article_view" style="padding: 0px;background-color: #fafafa;">
+               <textarea style="display:none;">[TOC]
+
+### Problem A 不存在的树
+分析：树链剖分模板题。。
+剖分后用线段树维护即可。
+```cpp
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+#define pb push_back
+#define cl(a,b) memset(a,b,sizeof(a))
+#define lson t&lt;&lt;1,l,mid
+#define rson t&lt;&lt;1|1,mid+1,r
+#define seglen(t) (node[(t)].r-node[(t)].l+1)
+typedef long long LL;
+const int INF = 0x3f3f3f3f;
+const int maxn = 50000 + 10;
+int head[maxn],cnt;
+struct Edge{
+    int to,next;
+}edge[maxn&lt;&lt;1];
+void add(int u,int v)
+{
+    edge[cnt].to = v;
+    edge[cnt].next = head[u];
+    head[u] = cnt++;
+}
+int num;
+int val[maxn],siz[maxn],dep[maxn],son[maxn];
+int top[maxn],tid[maxn],Rank[maxn],fa[maxn];
+void init()
+{
+    cl(head,-1);cl(son,-1);
+    cnt = num = 0;
+}
+///树链剖分部分
+void dfs1(int u,int father,int d)
+{
+    dep[u] = d;
+    fa[u] = father;
+    siz[u] = 1;
+    for(int i = head[u]; ~i; i = edge[i].next)
+    {
+        int v = edge[i].to;
+        if(v != father)
+        {
+            dfs1(v,u,d+1);
+            siz[u] += siz[v];
+            if(son[u] == -1 || siz[v] &gt; siz[son[u]])
+                son[u] = v;
+        }
+    }
+}
+ 
+void dfs2(int u,int tp)
+{
+    top[u] = tp;
+    tid[u] = ++num;
+    Rank[tid[u]] = u;
+    if(son[u] == -1) return;
+    dfs2(son[u],tp);
+    for(int i = head[u]; ~i; i = edge[i].next)
+    {
+        int v = edge[i].to;
+        if(v != son[u] &amp;&amp; v != fa[u])
+            dfs2(v,v);
+    }
+}
+///线段树部分
+struct Node{
+    int l,r,sum,mx;
+}node[maxn&lt;&lt;2];
+void pushup(int t)
+{
+    node[t].mx = max(node[t&lt;&lt;1].mx ,node[t&lt;&lt;1|1].mx);
+    node[t].sum = node[t&lt;&lt;1].sum + node[t&lt;&lt;1|1].sum;
+}
+void build(int t,int l,int r)
+{
+    node[t].l = l;
+    node[t].r = r;
+    if(l == r){
+        node[t].mx = node[t].sum = val[Rank[l]];
+        return ;
+    }
+    int mid = (l + r) &gt;&gt; 1;
+    build(lson);
+    build(rson);
+    pushup(t);
+}
+void update(int t,int u,int v)
+{
+    if(node[t].l == node[t].r &amp;&amp; node[t].l == u){
+        node[t].sum = v;
+        node[t].mx = v;
+        return ;
+    }
+    int mid = (node[t].l + node[t].r) &gt;&gt; 1;
+    if(u &lt;= mid)update(t&lt;&lt;1,u,v);
+    else update(t&lt;&lt;1|1,u,v);
+    pushup(t);
+}
+int querySum(int t,int l,int r)
+{
+    if(node[t].l &gt;= l &amp;&amp; node[t].r &lt;= r ){
+        return node[t].sum;
+    }
+    int mid = (node[t].l + node[t].r) &gt;&gt; 1;
+    int ret = 0;
+    if(l &lt;= mid)ret += querySum(t&lt;&lt;1,l,r);
+    if(r &gt; mid) ret += querySum(t&lt;&lt;1|1,l,r);
+    pushup(t);
+    return ret;
+}
+int queryMax(int t,int l,int r)
+{
+    if(l &lt;= node[t].l &amp;&amp; node[t].r &lt;= r){
+        return node[t].mx;
+    }
+    int mid = (node[t].l + node[t].r) &gt;&gt; 1;
+    int ret = -INF;
+    if(l &lt;= mid)ret = max(ret,queryMax(t&lt;&lt;1,l,r));
+    if(r &gt; mid)ret = max(ret,queryMax(t&lt;&lt;1|1,l,r));
+    pushup(t);
+    return ret;
+}
+int solveMax(int x,int y)
+{
+    int mx = -INF;
+    while(top[x] != top[y]){
+        if(dep[top[x]] &lt; dep[top[y]])swap(x,y);
+        mx = max(mx,queryMax(1,tid[top[x]],tid[x]));
+        x = fa[top[x]];
+    }
+    if(dep[x] &gt; dep[y])swap(x,y);
+    return max(mx,queryMax(1,tid[x],tid[y]));
+}
+int solveSum(int x,int y)
+{
+    int sum = 0;
+    while(top[x] != top[y]){
+        if(dep[top[x]] &lt; dep[top[y]])swap(x,y);
+        sum += querySum(1,tid[top[x]],tid[x]);
+        x = fa[top[x]];
+    }
+    if(dep[x] &gt; dep[y])swap(x,y);
+    return sum + querySum(1,tid[x],tid[y]);
+}
+int main()
+{
+    int ope;
+    int n,Q;
+    while(~scanf(&quot;%d%d&quot;,&amp;n,&amp;Q)){
+        init();
+        for( int i = 1; i &lt;= n; i++ ){
+            scanf(&quot;%d&quot;,val+i);
+        }
+        for( int i = 0; i &lt; n-1; i++ ){
+            int u,v;
+            scanf(&quot;%d%d&quot;,&amp;u,&amp;v);
+            add(u,v);
+            add(v,u);
+        }
+         
+        dfs1(1,0,0);
+        dfs2(1,1);
+        build(1,1,n);
+        int u,v;
+        while(Q--){
+            scanf(&quot;%d%d%d&quot;,&amp;ope,&amp;u,&amp;v);
+            if(ope == 0){
+                printf(&quot;%d\n&quot;,solveMax(u,v));
+            }
+            else if(ope == 1){
+                printf(&quot;%d\n&quot;,solveSum(u,v));
+            }
+            else {
+                update(1,tid[u],v);
+            }
+        }
+    }
+    return 0;
+}
+ 
+```
+### Problem B 一生之敌
+分析：题目就是求存在(a,b)满足(b^2 = 2 × a × (a + 1)^2)的(b)。  
+两边开根号,得:
+b = (a+1) × sqrt{2a}
+令(a = 2n^2),得:
+b = 2n (2n^2+1) = 4n^3 + 2n
+只要预处理一下(b),然后二分查询就行了。
+注意要用unsigned long long处理数据。
+```cpp
+//#define local
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+typedef long long LL;
+typedef unsigned long long ULL;
+const int maxn = 1400000 + 10;
+ULL f[maxn];
+void init()
+{
+  for (int i = 0; i &lt; maxn; i++) {
+    f[i] = 4ull * i * i * i + 2ull * i;
+  }
+}
+int main()
+{
+#ifdef local
+  freopen(&quot;test0.in&quot;,&quot;r&quot;,stdin);
+  freopen(&quot;test0.out&quot;,&quot;w&quot;,stdout);
+  clock_t start_time=clock();
+#endif
+  init();
+  int T;scanf(&quot;%d&quot;,&amp;T);
+  while(T--) {
+    ULL n;scanf(&quot;%llu&quot;,&amp;n);
+    assert(0 &lt;= n &amp;&amp; n &lt;= 10000000000000000000ull);
+    LL ans = lower_bound(f,f+maxn,n) - f;
+    printf(&quot;%llu\n&quot;,f[ans]);
+  }
+#ifdef local
+  clock_t end_time=clock();
+  double run_time = (double)(end_time - start_time) / CLOCKS_PER_SEC * 1000;
+  cerr&lt;&lt;&quot;Running time is : &quot;&lt;&lt;run_time&lt;&lt;&quot;ms.&quot;&lt;&lt;endl;
+#endif
+  return 0;
+}
+ 
+```
+### Problem C 寻找ZCMU
+分析：只要保存(z,c,m,u)四个字符出现的位置，枚举(z)字符的位置，其余三个字符的位置可以用二分查找。
+```cpp
+//#define local
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+#define pb push_back
+#define clr clear()
+const int INF = 0x3f3f3f3f;
+const int maxn = 100000 + 10;
+char str[maxn];
+vector&lt;int&gt;z,c,m,u;
+int main()
+{
+#ifdef local
+  freopen(&quot;sample.in&quot;,&quot;r&quot;,stdin);
+  freopen(&quot;sample.out&quot;,&quot;w&quot;,stdout);
+  clock_t start_time=clock();
+#endif
+  while(~scanf(&quot;%s&quot;,str)) {
+    z.clr;c.clr;m.clr;u.clr;
+    for (int i = 0; str[i]; i++) {
+      if(str[i] == 'z') z.pb(i);
+      if(str[i] == 'c') c.pb(i);
+      if(str[i] == 'm') m.pb(i);
+      if(str[i] == 'u') u.pb(i);
+    }
+    int flag = 0,ans = INF;
+    for (int i = 0; i &lt; (int)z.size(); i++) {
+      int p1 = upper_bound(c.begin(),c.end(),z[i]) - c.begin();
+      if(p1 == c.size())continue;
+      int p2 = upper_bound(m.begin(),m.end(),c[p1]) - m.begin();
+      if(p2 == m.size())continue;
+      int p3 = upper_bound(u.begin(),u.end(),m[p2]) - u.begin();
+      if(p3 == u.size())continue;
+      flag = 1;
+      //cout&lt;&lt;&quot;p1 = &quot;&lt;&lt;p1&lt;&lt;&quot;p2 = &quot;&lt;&lt;p2&lt;&lt;&quot;p3 = &quot;&lt;&lt;p3&lt;&lt;endl;
+      ans = min(ans,u[p3] - z[i] - 3);
+    }
+    printf(&quot;%d\n&quot;,flag ? ans : -1);
+  }
+#ifdef local
+  clock_t end_time=clock();
+  double run_time = (double)(end_time - start_time) / CLOCKS_PER_SEC * 1000;
+  cerr&lt;&lt;&quot;Running time is : &quot;&lt;&lt;run_time&lt;&lt;&quot;ms.&quot;&lt;&lt;endl;
+#endif
+  return 0;
+}
+```
+### Problem D cc的神奇背包
+分析:可扩充背包，本身是个贪心，需要按a&lt;=b和a&gt;b的分类后排序，那么显然a &lt;= b的物品一定是从a从小到大排序直接放进去的，因为每放一个背包体积都会扩大，那么对另外a&gt;b的物品，显然这个时候背包的体积一直在瞎讲，那么肯定要从体积大的开始放，判断能不能全放下就可以了
+```cpp
+#include &lt;vector&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+#include &lt;iostream&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+inline void read(int &amp;x)
+{
+    x = 0; int c = getchar();
+    while(c &lt; '0' || c &gt; '9') c = getchar();
+    while(c &gt;= '0' &amp;&amp; c &lt;= '9') x = x * 10 + c - 48, c = getchar();
+}
+int n, T, v;
+long long h;
+struct XX{ 
+    int a, b;
+};
+vector&lt;XX&gt; A,B;
+bool cp1(const XX &amp;x, const XX &amp;y) {return x.a &lt; y.a;}
+bool cp2(const XX &amp;x, const XX &amp;y) {return x.b &gt; y.b;}
+bool Jud()
+{
+    for(int i = 0; i &lt; A.size(); ++i)
+    {
+        if(h &lt; A[i].a) return false;
+        h += A[i].b - A[i].a;
+    }
+    for(int i = 0; i &lt; B.size(); ++i)
+    {
+        if(h &lt; B[i].a) return false;
+        h += B[i].b - B[i].a;
+    }
+    return true;
+}
+int main()
+{
+    //freopen(&quot;4.in&quot;,&quot;r&quot;,stdin);  
+    //freopen(&quot;4.out&quot;,&quot;w&quot;,stdout);  
+    read(T);
+    while(T--)
+    {
+        A.clear(), B.clear();
+        read(n), read(v), h = v;
+        for(int i = 0; i &lt; n; ++i)
+        {
+            XX x; read(x.a), read(x.b);
+            if(x.a &lt; x.b) 
+                A.push_back(x);
+            else
+                B.push_back(x);
+        }
+        sort(A.begin(), A.end(), cp1);
+        sort(B.begin(), B.end(), cp2);
+        puts(Jud() ? &quot;yes&quot;: &quot;no&quot;);
+    }
+     return 0;
+}
+```
+### Problem E Pizza
+分析:把一块质量为n的pizza分成等整数质量的多块，问获得最小的卡路里，那么显然最小的分块质量就是1，那么答案就是1×k，数据范围刚好比int大，使用long long即可
+```cpp
+#include &lt;stdio.h&gt;
+int main()
+{
+    // freopen(&quot;4.in&quot;,&quot;r&quot;,stdin);  
+    // freopen(&quot;4.out&quot;,&quot;w&quot;,stdout);  
+    long long n,m;
+    int pp;scanf(&quot;%d&quot;,&amp;pp);
+    while (pp--)
+    {
+        scanf(&quot;%lld%lld&quot;,&amp;n,&amp;m);
+        printf(&quot;%lld\n&quot;,m);
+    }
+    return 0;
+}
+```
+### Problem F 开心的cc
+分析：给出一串1和0，形成一个圈，问有多少个位置可以使得以这个点为起点，前缀和保证1的数量比0多
+很有意思的证明题.....证明结果就是把0当成-1求个和...和就是答案
+用反证法可以证明，在1和0个数一样的圈内比如 1 0 ，答案是0，那么对当前多出一个1的话，答案就会变成1，以此类推...
+```cpp
+#include &lt;stdio.h&gt;  
+int main()  
+{  
+//  freopen(&quot;1.in&quot;,&quot;r&quot;,stdin);  
+//  freopen(&quot;1.out&quot;,&quot;w&quot;,stdout);  
+    int pp;scanf(&quot;%d&quot;,&amp;pp);  
+    while (pp--)   
+    {  
+        int n;scanf(&quot;%d&quot;,&amp;n);  
+        int ans=0;  
+        for (int i=0;i&lt;n;i++)  
+        {  
+            int x;scanf(&quot;%d&quot;,&amp;x);  
+            if (x==0) ans--;
+            else ans++;
+        }   
+        if (ans&gt;0) printf(&quot;%d\n&quot;,ans);  
+        else printf(&quot;0\n&quot;);  
+    }  
+}  
+```
+### Problem G 特产
+分析：读取n,m  输出m-n
+```cpp
+#include &lt;iostream&gt;
+#include &lt;cstdio&gt;
+ 
+using namespace std;
+ 
+int main()
+{
+    int T;
+    double a,b;
+    cin &gt;&gt; T;
+    while (T--){
+        scanf(&quot;%lf%lf&quot;, &amp;a, &amp;b);
+        printf(&quot;%.0f\n&quot;, b - a);
+    }
+    return 0;
+}
+ 
+```
+### Problem H 剪纸
+分析:给出一张方格纸，用一条线分成两部分，且这两部分要相等，问有多少种方案，数据只到9,直接算也可以，dfs也可以，没有卡时间
+```cpp
+#include &lt;algorithm&gt;
+#include &lt;string.h&gt;
+#include &lt;iostream&gt;
+#include &lt;stdio.h&gt;
+#include &lt;string&gt;
+#include &lt;vector&gt;
+#include &lt;queue&gt;
+#include &lt;map&gt;
+#include &lt;set&gt;
+#include &lt;ctime&gt;
+using namespace std;
+int ans = 0;
+int mpt[20+1][20+1];
+int N;
+int dir[4][2] = {0,1,1,0,0,-1,-1,0};
+void dfs(int x,int y)
+{
+    if(x == 0 || y == 0 || x == N || y == N){
+        ans ++;
+        return;
+    }
+    for(int i = 0 ; i &lt; 4 ; i ++)
+    {
+        int tx = x + dir[i][0];
+        int ty = y + dir[i][1];
+        if(mpt[tx][ty])continue;
+        mpt[tx][ty] = 1;
+        mpt[N-tx][N-ty] = 1;
+        dfs(tx,ty);
+        mpt[tx][ty] = 0;
+        mpt[N-tx][N-ty] = 0;
+    }
+}
+int main()
+{
+    int pp;scanf(&quot;%d&quot;,&amp;pp);
+    while (pp--)
+    {
+        scanf(&quot;%d&quot;,&amp;N);
+  if (n%2) {puts(&quot;0&quot;);continue}
+        ans=0;
+        memset(mpt,0,sizeof(mpt));
+        mpt[N/2][N/2] = 1;
+        dfs(N/2,N/2);
+        printf(&quot;%d\n&quot;,ans/4);
+    }
+   return 0;
+}
+```
+### Problem I Memory leak
+分析：大模拟题，留了个坑，不一定只有第一行是char定义
+```cpp
+#include&lt;cstdio&gt;
+#include&lt;cstring&gt;
+#include&lt;algorithm&gt;
+#include&lt;iostream&gt;
+#include&lt;string&gt;
+#include&lt;map&gt;
+using namespace std;
+const int maxn=1e5+7;
+struct node{
+    string s;
+    string name;
+    int len;
+}e[maxn];
+map&lt;string,int&gt;mp;
+char str[maxn];
+int idx;
+int main(){
+    int t;
+    scanf(&quot;%d&quot;,&amp;t);
+    getchar();
+    idx=0;
+    while(gets(str)!=NULL){
+        if(strcmp(str,&quot;return 0;&quot;)==0){
+            t--;
+            if(t==0)break;
+            continue;
+        }
+        int len=strlen(str);
+        if(str[0]=='c'&amp;&amp;str[1]=='h'&amp;&amp;str[2]=='a'&amp;&amp;str[3]=='r'){
+            int i=5;
+            while(i&lt;len){
+                string ss=&quot;&quot;;
+                for(;str[i]!='[';i++)ss+=str[i];
+                e[idx].name=ss;
+                mp[ss]=idx;
+                int x=0;
+                i++;
+                for(;str[i]!=']';i++){
+                    x=x*10+str[i]-'0';
+                }
+                e[idx].len=x;
+                i+=3;
+                idx++;
+            }
+        }else if(str[0]=='g'&amp;&amp;str[1]=='e'&amp;&amp;str[2]=='t'&amp;&amp;str[3]=='s'){
+            string ss=&quot;&quot;;
+            int i=5;
+            for(;str[i]!=' ';i++)ss+=str[i];
+            int x=mp[ss];
+            ss=&quot;&quot;;
+            i++;
+            for(;i&lt;len;i++)ss+=str[i];
+            e[x].s=ss;
+//            cout&lt;&lt;e[x].name&lt;&lt;&quot;end&quot;&lt;&lt;endl;
+//            cout&lt;&lt;e[x].s&lt;&lt;&quot;end&quot;&lt;&lt;endl;
+//            cout&lt;&lt;e[x].len&lt;&lt;endl;
+//            cout&lt;&lt;endl&lt;&lt;endl;
+        }else{
+            int i=5;
+            string ss=&quot;&quot;;
+            for(;i&lt;len;i++)ss+=str[i];
+            int x=mp[ss];
+            int lenn=e[x].s.size();
+            if(e[x].len&gt;lenn)cout&lt;&lt;e[x].s&lt;&lt;endl;
+            else{
+                while(x&lt;idx){
+                    lenn=e[x].s.size();
+//                    cout&lt;&lt;e[x].name&lt;&lt;&quot;:&quot;&lt;&lt;endl;
+//                    cout&lt;&lt;e[x].s.size()&lt;&lt;&quot; &quot;&lt;&lt;len&lt;&lt;endl;
+                    if(e[x].len&lt;=lenn){
+                        for(int i=0;i&lt;e[x].len;i++)printf(&quot;%c&quot;,e[x].s[i]);
+//                        cout&lt;&lt;endl;
+                    }else{
+                        cout&lt;&lt;e[x].s;
+                        break;
+                    }
+                    x++;
+                }
+                cout&lt;&lt;endl;
+            }
+        }
+    }
+    return 0;
+}
+```
+### Problem J 序列
+分析：如果没有(gcd(x,y) == 1)这个限制，那么我们可以直接把所有的(b\_{a\_y})统计进一个数组里，然后将所有的(a\_{b\_x})统计进答案就行了。
+有了这个限制，我们可以考虑容斥。
+就是我们把所有的解都累加进答案，然后去掉(gcd(x,y) != 1)的解。
+这里我们可以用莫比乌斯函数。
+关于莫比乌斯函数的定义。
+![](http://www.jnxxhzz.com/Public/Upload/2017-12-10/1bed72c8b56cae80ec7cd73d881c9327.png)
+(p\_1,p\_2,...,p\_n)为素数。
+具体可参照wiki。
+接下来我们只要计算出(x,y)都为(i)的倍数时的答案，再与(u[i])相乘累加进答案就可以了。
+```cpp
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+#define fin freopen(&quot;test10.in.txt&quot;,&quot;r&quot;,stdin)
+#define fout freopen(&quot;test10.out.txt&quot;,&quot;w&quot;,stdout)
+#define cl(a,b) memset(a,b,sizeof(a))
+typedef long long LL;
+const int maxn = 100000 + 10;
+bool check[maxn];
+int mu[maxn],prime[maxn];
+void Mobius()
+{
+    cl(check,false);
+    mu[1] = 1;
+    int tot = 0;
+    for( int i = 2; i &lt; maxn; i++ ){
+        if(!check[i]){
+            prime[tot++] = i;
+            mu[i] = -1;
+        }
+        for( int j = 0; j &lt; tot; j++ ){
+            if(i * prime[j] &gt;= maxn)break;
+            check[i*prime[j]] = true;
+            if(i % prime[j] == 0){
+                mu[i * prime[j]] = 0;
+                break;
+            }
+            else {
+                mu[i * prime[j]] = -mu[i];
+            }
+        }
+    }
+}
+int a[maxn],b[maxn],vis[maxn],n;
+LL cal(int t)
+{
+    LL ret = 0;
+    for( int i = t; i &lt;= n; i += t )vis[b[a[i]]]++;
+    for( int i = t; i &lt;= n; i += t )ret += vis[a[b[i]]];
+    for( int i = t; i &lt;= n; i += t )vis[b[a[i]]]--;
+    return ret;
+}
+int main()
+{
+    //fin,fout;
+    Mobius();
+    while(~scanf(&quot;%d&quot;,&amp;n)){
+        for( int i = 1; i &lt;= n; i++ ){
+            scanf(&quot;%d&quot;,a+i);
+            assert(a[i] &lt;= n &amp;&amp; a[i] &gt;= 1);
+        }
+        for( int i = 1; i &lt;= n; i++ ){
+            scanf(&quot;%d&quot;,b+i);
+            assert(b[i] &lt;= n &amp;&amp; b[i] &gt;= 1);
+        }
+        LL ans = 0;
+        for( int i = 1; i &lt;= n; i++ ){
+            ans += mu[i]*cal(i);
+        }
+        printf(&quot;%lld\n&quot;,ans);
+    }
+    return 0;
+}
+ 
+```
+### Problem K 追求者
+分析:对于询问l~r，可以拆成1~l-1,1~r的询问。想要询问一个点到一些点的距离和，可以在重心树上直接跑。然后给出一个可持久化重心树，用与线段树类似的思路，维护当前区间的所有点数量 与到重心父亲的距离和，每加入一个节点只需要修改它在重心树上到root的距离。由于重心树深度是O(logn)，所以直接可持久化每次是O(Σ重心树上儿子数)，这显然是不优的。那么就考虑把这棵树重新建成一棵二叉树，之后的就简单了，只要注意一点，尽管转化为二叉树，重心树节点仍可以有3个儿子。可能需要RMQ O(1)求两点间距离。
+```cpp
+#include&lt;iostream&gt;  
+#include&lt;cstdio&gt;  
+#include&lt;cstring&gt;  
+#include&lt;algorithm&gt;  
+#define N 800005  
+#define M 15000005  
+#define ll long long  
+using namespace std;  
+     
+int n,q,p,x,y,z,RT,w[N];  
+int to[N],len[N],nxt[N],fst[N],u[N],l=1;  
+int To[N],Len[N],Nxt[N],Fst[N],L;  
+int a[N],b[N],c[N][3],cnt,st[N],ed[N],Cnt;  
+int Mx[N],sz[N],fa[N];  
+int ly,e[N],lg[N],pos[N];  
+int rt[N],s[M][3],used[M],nd;  
+     
+ll r[N][26],dep[N],f[M],g[M],ans;  
+     
+void link(int x,int y,int z)  
+{  
+    to[++l]=y;len[l]=z;nxt[l]=fst[x];fst[x]=l;  
+    to[++l]=x;len[l]=z;nxt[l]=fst[y];fst[y]=l;  
+}  
+void Link(int x,int y,int z)  
+{  
+    To[++L]=y;Len[L]=z;Nxt[L]=Fst[x];Fst[x]=L;  
+    To[++L]=x;Len[L]=z;Nxt[L]=Fst[y];Fst[y]=L;  
+}  
+void edg(int x,int l,int r)  
+{  
+    if (l==r)  
+    {  
+        link(x,a[l],b[l]);  
+        return;  
+    }  
+    int mid=l+r&gt;&gt;1,tmp=++cnt;  
+         
+    edg(tmp,l,mid);  
+    edg(tmp,mid+1,r);  
+    link(x,tmp,0);  
+}  
+void dfs(int x,int f)  
+{  
+    int t=0;  
+    for (int i=Fst[x];i;i=Nxt[i])  
+        if (To[i]!=f)  
+            a[++t]=To[i],b[t]=Len[i];  
+    if (t)  
+    {  
+        int mid=t+1&gt;&gt;1;   
+        edg(x,1,mid);  
+        if (t!=1) edg(x,mid+1,t);  
+    }  
+    for (int i=Fst[x];i;i=Nxt[i])  
+        if (To[i]!=f)  
+            dfs(To[i],x);  
+}  
+void Dfs(int x,int f)  
+{  
+    sz[x]=1;Mx[x]=0;  
+    for (int i=fst[x];i;i=nxt[i])  
+    {  
+        if (!u[i]&amp;&amp;to[i]!=f)  
+        {  
+            Dfs(to[i],x);  
+            sz[x]+=sz[to[i]];  
+            Mx[x]=max(Mx[x],sz[to[i]]);  
+        }  
+    }  
+}  
+void Get(int x,int f,int size,int &amp;G)  
+{  
+    if (max(Mx[G],size-sz[G])&gt;max(Mx[x],size-sz[x])) G=x;  
+    for (int i=fst[x];i;i=nxt[i])  
+        if (!u[i]&amp;&amp;to[i]!=f) Get(to[i],x,size,G);  
+     
+}  
+int build(int x)  
+{  
+    int G=x,sum=0;  
+    Dfs(x,0);  
+    if (sz[x]==1) return x;  
+    Get(x,0,sz[x],G);  
+    for (int i=fst[G];i;i=nxt[i])  
+        if (!u[i])  
+        {  
+            u[i]=u[i^1]=1;  
+            int t=build(to[i]);  
+            c[G][sum++]=t;  
+            fa[t]=G;  
+        }  
+    return G;  
+}  
+void DFS(int x,int f)  
+{  
+    r[pos[x]=++ly][0]=dep[x];  
+    for (int i=fst[x];i;i=nxt[i])  
+        if (to[i]!=f)  
+        {  
+            dep[to[i]]=dep[x]+len[i];  
+            DFS(to[i],x);  
+            r[++ly][0]=dep[x];  
+        }  
+}  
+void DFS(int x)  
+{  
+    st[x]=++Cnt;  
+    for (int i=0;i&lt;3;i++)  
+        if (c[x][i])  
+            DFS(c[x][i]);  
+    ed[x]=Cnt;  
+}  
+ll dis(int x,int y)  
+{  
+    if (!x||!y) return 0;  
+    x=pos[x];y=pos[y];  
+    if (x&gt;y) swap(x,y);  
+    int t=lg[y-x+1];  
+    return r[x][0]+r[y][0]-2*min(r[x][t],r[y-e[t]+1][t]);  
+}  
+     
+void mdy(int x,int &amp;y,int p,int q)  
+{  
+    if (!y) y=++nd;  
+         
+    g[y]=g[x]+1;  
+    f[y]=f[x]+dis(fa[p],q);  
+    used[y]=used[x];  
+    if (p==q) used[y]=1;  
+    for (int i=0;i&lt;3;i++)  
+        if (c[p][i]&amp;&amp;st[q]&gt;=st[c[p][i]]&amp;&amp;st[q]&lt;=ed[c[p][i]])  
+            mdy(s[x][i],s[y][i]=0,c[p][i],q);  
+        else s[y][i]=s[x][i];     
+}  
+     
+ll qry(int x,int y,int z)  
+{  
+    if (!x) return 0;  
+    if (z==y)  
+    {  
+        ll ans=0;  
+        for (int i=0;i&lt;3;i++)  
+            if (c[y][i]) ans+=f[s[x][i]];  
+        return ans;  
+    }  
+    ll ans=used[x]*dis(y,z);  
+    for (int i=0;i&lt;3;i++)  
+        if (c[y][i]&amp;&amp;st[z]&gt;=st[c[y][i]]&amp;&amp;st[z]&lt;=ed[c[y][i]])  
+            ans+=qry(s[x][i],c[y][i],z);  
+        else ans+=f[s[x][i]]+g[s[x][i]]*dis(y,z);  
+    return ans;  
+}  
+     
+int main()  
+{  
+    //reopen(&quot;4.in&quot;,&quot;r&quot;,stdin);  
+    //freopen(&quot;4.out&quot;,&quot;w&quot;,stdout);  
+    scanf(&quot;%d%d&quot;,&amp;n,&amp;q);  
+    for (int i=1;i&lt;=n;i++)  
+        scanf(&quot;%d&quot;,&amp;w[i]);  
+    for (int i=2;i&lt;=n;i++)  
+    {  
+        scanf(&quot;%d%d%d&quot;,&amp;x,&amp;y,&amp;z);  
+        Link(x,y,z);  
+    }  
+    cnt=n;  
+    dfs(1,0);//cnt=2n  
+    L=0;  
+    memset(Fst,0,sizeof Fst);  
+         
+    RT=build(1);  
+    DFS(RT);  
+    DFS(1,0);//ly=4n  
+         
+    lg[1]=0;  
+    for (int i=2;i&lt;=ly;i++)  
+        lg[i]=lg[i&gt;&gt;1]+1;  
+    e[0]=1;  
+    for (int i=1;i&lt;=lg[ly];i++)  
+        e[i]=e[i-1]&lt;&lt;1;  
+    for (int i=1;i&lt;=lg[ly];i++)  
+    {  
+        for (int j=1;j&lt;=ly;j++)  
+            r[j][i]=min(r[j][i-1],r[j+e[i-1]][i-1]);  
+    }  
+         
+    for (int i=1,apa=0;i&lt;=n;i++)  
+    {  
+        mdy(rt[i-1],rt[i],RT,w[i]);//nd+=log 2n  
+    }  
+    while(q--)  
+    {  
+        scanf(&quot;%d&quot;,&amp;p);  
+        if (p==1)  
+        {  
+            scanf(&quot;%d%d%d&quot;,&amp;x,&amp;y,&amp;z);  
+            ans=qry(rt[y],RT,z)-qry(rt[x-1],RT,z);
+            printf(&quot;%lld\n&quot;,ans);
+        }   
+        else
+        {  
+            scanf(&quot;%d&quot;,&amp;x); 
+            mdy(rt[x-1],rt[x],RT,w[x+1]);  
+            swap(w[x],w[x+1]);  
+        }  
+    }  
+}  
+```</textarea>               
+            </div>
+            <hr><br><br>
+            <!-- 点赞 -->
+            <div id="add_like" class="uk-align-center">
+                <span class="like">
+                    <i class="uk-icon uk-icon-heart-o"></i>
+                </span>
+                点赞(<span class="like-count">26</span>)
+            </div>
+            <br><br>    
+            
+            <hr>
+            <!-- 转载声明等 浙江中医药大学第十一届校赛题解-->
+            <div style="color:#16A085;"><span style="color:#c0392b;">转载请注明 : </span>[转自jnxxhzz] 原文地址 : http://www.jnxxhzz.com/Article/article/9.html</div>
+            <hr>
+            <!-- 上一篇、下一篇 -->
+                            <div>
+                    <a href="http://www.jnxxhzz.com/Article/article/10.html">上一篇 : 教你用python玩跳一跳</a>                </div>
+                                        <div>
+                    <a href="http://www.jnxxhzz.com/Article/article/8.html">下一篇 : hdu6225—Little Boxes</a>                </div>
+            <!-- 上一篇、下一篇 end -->
+        </article>
+    </div>
+    <div class="uk-panel uk-panel-box">
+        <h4 class="uk-text-primary uk-text-bold">说点什么</h4>
+        <!-- 评论区 -->
+        <div id="comment">
+            <div id="on_load" style="text-align:center;font-size:24px;opacity:0.8;">
+            <i class="uk-icon-spin uk-icon-spinner"></i><span> 加载中...</span>
+            </div>
+        </div><!-- 评论区 end -->
+    </div>
+</div>
+
+<script type="text/javascript">
+    // 解析markdown
+    head.ready(function(){
+        article_view = editormd.markdownToHTML("article_view", {
+            emoji           : true,
+            taskList        : true,
+            tex             : true,  
+            flowChart       : true,  
+            sequenceDiagram : true,  
+        });
+    });  
+</script>﻿<!-- 侧边栏 -->
+<div class="uk-width-medium-1-3">
+    <!-- 公告 -->
+    <div class="uk-panel uk-panel-box notice">
+        <div class="uk-panel-teaser">
+            <img src="http://www.jnxxhzz.com/Public/img/notice.png">
+        </div>
+        <strong>正式上线~</strong>
+        <!-- 输出端过滤html标签 -->
+        <div>个人博客正式上线~www.jnxxhzz.com持续更新和维护~</div> 
+    </div><!-- 公告 end -->
+    
+    <!-- 热门文章 -->
+    <div class="uk-panel uk-panel-box">
+       <h3 class="uk-panel-title uk-text-bold uk-text-primary">热门</h3>
+        <ul class="uk-list uk-list-line">
+                            <li><a href="http://www.jnxxhzz.com/Article/article/9.html">浙江中医药大学第十一届校赛题解...</a></li>
+                    <li><a href="http://www.jnxxhzz.com/Article/article/3.html">浙中医大计算机系新生指南...</a></li>
+                    <li><a href="http://www.jnxxhzz.com/Article/article/4.html">2017哈尔滨CCPC</a></li>
+                    <li><a href="http://www.jnxxhzz.com/Article/article/5.html">2017西安ICPC</a></li>
+                    <li><a href="http://www.jnxxhzz.com/Article/article/6.html">博客更新日志</a></li>
+                    <li><a href="http://www.jnxxhzz.com/Article/article/8.html">hdu6225—Little Boxes...</a></li>
+          
+        <li class="uk-text-right"><a href="http://www.jnxxhzz.com/Article/article_list/hot.html">查看更多...</a></li>                </ul>
+    </div><!-- 热门文章 end -->
+    
+    <!-- 标签云  -->
+    <div class="uk-panel uk-panel-box uk-text-center">
+        <div class="uk-panel-teaser">
+            <img src="http://www.jnxxhzz.com/Public/img/tags.png">
+        </div>
+        <div id="divtag_cloud" style = "position:relative; width:360px; height:350px;margin:-20 auto;left:-20px;">
+                                        <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%25B0%258F%25E7%258E%25A9%25E5%2585%25B7.html">小玩具</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E9%25AB%2598%25E7%25B2%25BE%25E5%25BA%25A6.html">高精度</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%25A8%25A1%25E6%259D%25BF.html">模板</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/2018.html">2018</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E8%25AE%25AD%25E7%25BB%2583%25E8%25B5%259B.html">训练赛</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%2596%2587%25E4%25BB%25B6.html">文件</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E4%25BB%25A3%25E7%25A0%2581.html">代码</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E8%25AE%25AD%25E7%25BB%2583.html">训练</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%25AF%2592%25E5%2581%2587.html">寒假</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E7%25AE%2597%25E6%25B3%2595.html">算法</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/Wannafly.html">Wannafly</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E9%25A2%2598%25E8%25A7%25A3.html">题解</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/ACM.html">ACM</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/python.html">python</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%25B0%258F%25E6%25B8%25B8%25E6%2588%258F.html">小游戏</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%25A0%25A1%25E8%25B5%259B.html">校赛</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/hdu.html">hdu</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/chrome.html">chrome</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%2589%25A9%25E5%25B1%2595%25E7%25A8%258B%25E5%25BA%258F.html">扩展程序</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%258D%259A%25E5%25AE%25A2.html">博客</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%259B%25B4%25E6%2596%25B0.html">更新</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%2597%25A5%25E5%25BF%2597.html">日志</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/2017.html">2017</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E8%25A5%25BF%25E5%25AE%2589.html">西安</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/ICPC.html">ICPC</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%2593%2588%25E5%25B0%2594%25E6%25BB%25A8.html">哈尔滨</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/CCPC.html">CCPC</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%2596%25B0%25E7%2594%259F.html">新生</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E8%25AE%25A1%25E7%25AE%2597%25E6%259C%25BA.html">计算机</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/C%252B%252B.html">C++</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E6%25AC%25A2%25E8%25BF%258E.html">欢迎</a>                            <a href="http://www.jnxxhzz.com/Article/article_list/tag/%25E5%258C%25BB%25E4%25BF%25A1.html">医信</a>                                            </div>
+    </div><!-- 标签云 end -->
+    
+    <!-- 分类 -->
+    <div class="uk-panel uk-panel-box">
+        <h3 class="uk-panel-title uk-text-bold uk-text-primary">分类</h3>
+        <ul class="uk-list uk-list-line">
+                                        <li><a href="http://www.jnxxhzz.com/Article/article_list/category/3.html">ACM (7)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/8.html">小玩具 (4)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/4.html">ZCMU (2)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/1.html">test (1)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/5.html">HDU (1)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/6.html">网络赛 (0)</a></li>
+                            <li><a href="http://www.jnxxhzz.com/Article/article_list/category/7.html">python (0)</a></li>
+              
+                                </ul>
+    </div><!-- 分类 end -->
+    <!-- 友情链接 -->
+    <div class="uk-panel uk-panel-box">
+        <h3 class="uk-panel-title uk-text-bold uk-text-primary">友情链接</h3>
+        <ul id="normal_links" class="uk-list">
+                                        <a href="http://blog.csdn.net/jnxxhzz" target="_blank">csdnblog</a>
+                            <a href="http://codeforces.com/problemset" target="_blank">codeforces</a>
+                                            </ul>
+    </div><!-- 友链 end -->
+</div><!-- 侧边栏 end -->            </div><!-- 布局 -->
+        </div><!-- 页面容器 -->
+    </section><!-- 页面内容 end -->   
+        
+    <!-- 回顶部 -->
+    <div id="back_top" class="uk-hidden-small">
+        <i class="uk-icon-large uk-icon-arrow-up"></i>
+    </div><!-- //回顶部 -->
+
+    <!-- 脚部 -->
+    <footer class="tm-footer">
+        <div class="uk-container uk-container-center uk-text-center">
+            <!-- base on 、ICP -->
+            <ul class="uk-subnav uk-subnav-line uk-flex-center">
+                <li>design base on<a href="https://getuikit.com" target="_blank">&nbsp;UIKIT</a></li>
+                <li>website base on<a href="http://www.codeigniter.com/" target="_blank">&nbsp;CodeIgniter</a></li>
+                                    <li><a href="http://www.miibeian.gov.cn" target="_blank">浙ICP备17048957号</a></li>  
+                                <!--li><script src="https://s4.cnzz.com/z_stat.php?id=1261168964&web_id=1261168964" language="JavaScript"></script></li>-->
+            </ul><!-- base on 、ICP end -->
+            <!-- 版权 -->
+            <p>
+                <span><span style="font-family:arial;">Copyright&nbsp;&copy;&nbsp;</span>&nbsp;2016&nbsp;-&nbsp;2018&nbsp;<a href="http://www.jnxxhzz.com/Home/index.html">jnxxhzz</a>&nbsp;&amp;&nbsp; 版权所有 &nbsp;</span> |&nbsp;
+                <br>
+                <span>Made by <a href="http://www.jnxxhzz.com/Home/index.html">jnxxhzz</a></a> Licensed under <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</span>               
+            </p><!-- 版权 end -->
+            
+            <a href="http://www.jnxxhzz.com/Home/index">
+                <img src="http://www.jnxxhzz.com/Public/img/logo.png" width="90" height="30" title="jnxxhzz" alt="jnxxhzz">
+            </a>          
+        </div>
+    </footer><!-- 脚部 end -->
+
+    <!--回顶部操作-->
+    <script type="text/javascript"> head.ready(function(){$('#article_search,#article_search_canvas').keydown(function(event){if(event.keyCode==13){var search_data=($(this).serialize()).split('=');var data_param=encodeURIComponent($.trim(search_data[1].replace(/\+/g,' ')));if(data_param==''){$.center_message('请输入内容','error');}else{window.location='http://www.jnxxhzz.com/Article/article_list' + '/' + search_data[0] + '/' + data_param + '.html';}return false;}});});</script><script type="text/javascript"> head.ready(function(){$('#divtag_cloud').windstagball({radius:120,speed:10});$('#tag_cloud').jnxxhzztool('tag_cloud');$('#back_top').jnxxhzztool('back_top');$('#comment').comment({'comment_url':'http://www.jnxxhzz.com/Comment/comment_list/9','img_url':'http://www.jnxxhzz.com/Public/img//twemoji','like_url':'http://www.jnxxhzz.com/Comment/comment_like/','submit_url':'http://www.jnxxhzz.com/Comment/comment_add/9',},function(){$('#on_load').remove();});$('#add_like').click(function(){if($(this).find('.like').length !=0){$(this).find('.like').comment('comment_like','http://www.jnxxhzz.com/Article/like_count/',9);}});setTimeout('$.get(\'http://www.jnxxhzz.com/Article/access_count/9\')',3000);});</script>
+</body>
+</html>
